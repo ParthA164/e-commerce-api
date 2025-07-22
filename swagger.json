@@ -5,9 +5,7 @@
     "description":"**🚀 Getting Started Guide:**\n\n1. **Register**: Use `/api/users/signup` to create a new account (Customer or Seller)\n2. **Login**: Use `/api/users/signin` with your credentials to get a JWT token\n3. **Authorize**: Click the 🔒 **Authorize** button above and enter: `Bearer <your-jwt-token>`\n4. **Explore**: Now you can access all protected endpoints!\n\n---\n\n**Complete E-commerce API** with role-based access control, product management, order processing, cart functionality, and social features.\n\n**User Roles:**\n- **Customer**: Can browse products, manage cart, place orders, like items\n- **Seller**: Can manage own products, view related orders, access analytics\n- **Admin**: Full system access and user management",
     "title": "E-commerce API"
   },
-  "host": "localhost:3000",
   "basePath": "/",
-  "schemes": ["http"],
   "consumes": ["application/json"],
   "produces": ["application/json"],
   "securityDefinitions": {
